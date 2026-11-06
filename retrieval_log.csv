@@ -1,0 +1,11 @@
+query,split,expected_doc,predicted_doc,score,correct,evidence
+What is required for illness extensions?,dev,late,late,12.5917,True,Illness extensions require medical evidence before the deadline.
+How do I reset a forgotten password?,dev,password,password,8.3944,True,Reset a forgotten password using the recovery link.
+Where do I upload assignments?,dev,assignment,assignment,4.1972,True,Upload assignments through the learning portal.
+Can contractors work remotely?,dev,contractor,contractor,12.5917,True,Contractors can work remotely only if the signed contract permits it.
+What do I do for blank printer pages?,test,printer,printer,12.5917,True,"For blank printer pages, check ink levels and run the cleaning utility."
+How can I recover my login access?,test,password,password,4.1972,True,Reset a forgotten password using the recovery link.
+How should I hand in my coursework?,test,assignment,assignment,2.0986,True,Upload assignments through the learning portal.
+What proof is needed when I was ill?,test,late,late,8.3944,True,Illness extensions require medical evidence before the deadline.
+What are tomorrow's flight prices?,test,,,0.0,True,
+Who won the football match?,test,,,0.0,True,

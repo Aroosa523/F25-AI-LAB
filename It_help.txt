@@ -1,0 +1,15 @@
+Q: How do I reset my password?
+A: Open the login page, select Forgot Password, and follow the recovery link.
+Source: it_help.txt
+
+Q: How do I upload my assignment?
+A: Log in to the learning portal, open your course, and upload your assignment in the submission section.
+Source: it_help.txt
+
+Q: How can I connect to university Wi-Fi?
+A: Select the university Wi-Fi network and follow the login instructions provided by your university IT department.
+Source: it_help.txt
+
+Q: How do I protect my recovery codes?
+A: Keep recovery codes private and never share them with anyone.
+Source: it_help.txt
