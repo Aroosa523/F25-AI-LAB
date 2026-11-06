@@ -1,5 +1,11 @@
 AI Lab Task 3: Graph Search Algorithms
 
+University: The Superior University Lahore
+Program: BS Artificial Intelligence
+Semester: 3
+Section: BSAI (All)
+Session: Fall-26
+
 1. Introduction
 
 This lab implements five Artificial Intelligence search algorithms: Breadth-First Search (BFS), Depth-First Search (DFS), Depth-Limited Search (DLS), Iterative Deepening Depth-First Search (IDDFS), and Uniform Cost Search (UCS).
@@ -51,25 +57,14 @@ This file implements DLS and IDDFS.
 - IDDFS repeats DLS with increasing depth limits.
 - The required depth limits are 1, 2, 3, and 4.
 
-File 3: lab3_ucs.py — Uniform Cost Search
+File 3: lab3_ucs.py
 
-This file implements Uniform Cost Search (UCS) on the weighted graph.
+This file implements Uniform Cost Search.
 
-- The original graph vertices and corridors are retained.
-- An additional corridor C -> G is included as required by Section 3.7.
-- The "best_cost" dictionary tracks the lowest known cost to each node.
-- A priority queue processes the path with the lowest accumulated cost first.
-- The BFS alternative and UCS path are compared separately by number of edges and total cost.
-
-Expected comparison:
-
-- BFS alternative path: A -> C -> G
-- BFS edge count: 2
-- BFS total cost: 12
-- UCS path: A -> B -> E -> G
-- UCS edge count: 3
-- UCS total cost: 3
-
+- The graph is extended with the additional corridor C -> G.
+- Edge weights represent non-negative travel costs.
+- UCS uses a priority queue to find a minimum-cost path.
+- The BFS route and UCS route are compared by hop count and total cost separately.
 
 4. How to Run the Programs
 
@@ -118,3 +113,7 @@ The project includes the following files:
 - "lab3_ucs.py"
 - "README.md"
 - "Lab3_Report.docx"
+
+Required input data and output or trace files should also be included if applicable.
+
+GitHub Repository URL: Add the repository link after uploading the project.
